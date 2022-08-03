@@ -11,11 +11,21 @@ font-family: 'Sacramento', cursive;
 }
 .about-book{
     color: #003865;
-    font-family: 'Oswald', sans-serif;
 }
 .book-review{
     font-family: 'Oswald', sans-serif;  
     color: #003865; 
+}
+.rating-num{
+    font-family: 'Oswald', sans-serif;  
+    color: #003865; 
+}
+.other-book{
+    font-family: 'Oswald', sans-serif;  
+    color: #003865; 
+}
+.slide-img{
+    height: 400px;
 }
 .contact-us{
     font-family: 'Oswald', sans-serif;  
