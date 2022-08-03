@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+    crossorigin="anonymous">
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- favicon -->
+    <link rel="icon" href="/asset/favicon.ico">
+</head>
+<body>
+    <!-- nav bar -->
+   <nav class="navbar navbar-expand-md">
+    <div class="container-lg fluid">
+        <a href="#" class="navbar-brand text-secondary fw-bold">
+            <span> <i class="bi bi-book"></i>
+                ፍቅር እስከ መቃብር
+            </span>
+        </a>
+        <!-- toggle button  -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end align-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#price-section">Price</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-section">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#review-section">Review</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#author-section">Author</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#contact-form">Contact</a></li>
+                      <li><a class="dropdown-item" href="#notify-me">Notify Me</a></li>
+                      <li><a class="dropdown-item" href="#social-media-links">Social Media</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+     </div>
+   </nav>
+    <!-- image and discroption -->
+        <div class="container-lg my-3 bg-light">
+            <div class="row">
+                <div class="col-md-4 text-center text-md-start">
+                   <div class="">
+                    <h1 class="pt-4 text-secondary">Love to the Grave</h1>
+                    <p class="text-muted">It is an Amharic novel by Haddis Alemayehu published in 1968. 
+                       It is one of the leading known books in Ethiopia and is considered a classic of Ethiopian literature. 
+                       The novel picked up ubiquity to a great extent due to its far reaching dispersal on Ethiopian radio.
+                       It was included on the well known radio program "Kemetsahifit Alem" (The world of Books) by have Wegayehu Nigatu.
+                       The creator himself afterward lauded Wegayehu for quote "giving life to the characters within the story" with his portrayal of the novel..</p>
+                    <a href="#price" class="btn btn-light">Buy Now</a>
+                   </div>
+                </div>
+                <div class="col-md-5 text-center">
+                    <img src="/asset/book front.jpg" class="img-fluid d-none d-md-block" alt="book cover">
+                </div>
+                <div class="col-md-3 text-center text-md-start pt-4">
+                  <figure>
+                    <blockquote class="blockquote">
+                      <p>“I’m all for moderation — one drink per ego. But you see, I inherit the ego of every character I take on. Now,
+                        I’ve even taken on characters that had multiple personalities. 
+                       So, every night, I have one drink for each (burp) of my alter (hic) egoes…”</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Wegayehu Negatu<cite title="Source Title"></cite>
+                    </figcaption>
+                  </figure>
+                </div>
+            </div>
+        </div>
+
+    <!-- pricing secrion -->
+    <div class="mt-4 text-center">
+      <h1 class="price-font display-3" id="price-section">Price</h1>
+    </div>
+
+    <div class="container bg-light">
+        <div class="row align-items-center justify-content-center my-4 g-2">
+            <div class="col-8 col-lg-4 col-md-4">
+              <div class="card border-0">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-center display-6 text-primary book-edition">Old Edition</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">ፍቅር እስከ መቃብር</h6>
+                  <p class="card-text ">Full text book and ebook</p>
+                  <p class="display-6 text-danger text-center del book-del-price"><del>$14.99</del></p>
+                  <p class="display-2 text-primary text-center book-price">$9.99</p>
+                  <a href="#" class="btn btn-outline-primary">Buy Now</a>         
+                </div>
+              </div>
+            </div>
+            <div class="col-8 col-lg-4 col-md-4" id="price">
+                <div class="card border-primary">
+                    <div class="card-body text-center">
+                      <h5 class="card-title text-center display-6 text-primary">Premium Edition</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">ፍቅር እስከ መቃብር</h6>
+                      <p class="card-text ">Full updated text book and ebook</p>
+                      <p class="display-6 text-danger text-center  book-del-price"><del>$39.99</del></p>
+                      <p class="display-2 text-primary text-center book-price">$29.99</p>
+                      <a href="#" class="btn btn-outline-primary">Buy Now</a>         
+                    </div>
+                  </div>
+            </div>
+            <div class="col-8 col-lg-4 col-md-4">
+              <div class="card border-0">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-center display-6 text-primary book-edition">Ultimate Edition</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">ፍቅር እስከ መቃብር</h6>
+                  <p class="card-text ">Full ultimate edition text book and ebook</p>
+                  <p class="display-6 text-danger text-center del book-del-price"><del>$44.99</del></p>
+                  <p class="display-2 text-primary text-center book-price">$39.99</p>
+                  <a href="#" class="btn btn-outline-primary">Buy Now</a>         
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- about the book accordion section-->
+    <div class="container mt-4">
+     <h2 class="text-center about-book display-6 mt-5" >About The Book</h2>
+    </div>
+    <div class="container-md bg-light">
+      <div class="row justify-content-around align-items-center my-2 g-5">
+        <div class="col-6 col-lg-4 align-center">
+          <img src="/asset/book front.jpg" alt="image" class="img-fliud ">
+        </div>
+        <div class="col-lg-6">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button id="about-section"  class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  About
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                 <strong>The novel is one of the foremost celebrated in Ethiopia.</strong> 
+                 It is especially well known among those people who lived through the 1970s and 80's. 
+                 during which it was once described over the radio. A music video titled "Mar eske Twauf" by the grant winning Ethiopian music star Teddy Afro based on this novel was released on YouTube.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Story
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                 <sronge>The books centres on a romance</sronge> between the beautiful Seble, girl of a nobleman called Meshesha. 
+                 She remains single as no one is considered noble sufficient for her, but when a mentor arrives they fall in love.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                 Genre
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>	Fiction</strong> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button id="author-section" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                 Author
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                   <p >He was born within the Endodam Kidane Miheret area, the lower parts of Debre Markos, the capital of Gojjam territory. 
+                  The child of an Orthodox priest, Abba Alemayehu Solomon and his mother Desta Alemu. He grew up with his mother. 
+                  As a boy, he started his education inside the framework of the Ethiopian Orthodox Church, examining at the religious communities of Debre Elias, Debre Werq, and Dima Giorgis where he at long last graduated in Qine (sort of expanded Ethiopian Orthodox Church instruction). 
+                  Afterward, he moved to Addis Ababa where he gone to a few schools, counting the Swedish mission school (1925–27) and afterward at the Tafari Makonnen School for assist instruction of the mainstream sort (EthioView 12 December 2003).
+                   He composed his to begin with play during this period, YeHabeshan yewedehuala Gabcha (The marriage of habesha and its backwardness) which displayed remarkably develop fashion. 
+                   Within the early 1930s Hadis returned to Gojam and worked as a traditions receptionist and school director some time recently moving to a instructing position at Debre markos.</p>
+                </div>
+              </div>
+            </div>
+          </div>   
+        </div>
+      </div>
+    </div>
+    <!-- book review -->
+    <div class="comtainer my-4">
+      <div class="text-center">
+        <p class="lead book-review display-6" id="review-section"><i class="bi bi-star-half"></i>Book Review</p>
+      </div>
+      <div class="row justify-content-center bg-light">
+        <div class="col-lg-6 col-md-6 col-sm-8">
+          <figure class="mx-4 quotes">
+            <blockquote class="blockquote">
+              <p>I love it so much. Thanks to Dr.Haddis Alemayehu.
+                </p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Dr.Eliana Teshome<cite title="Source Title">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </cite>
+            </figcaption>
+          </figure>
+          <figure class="mx-4 quotes">
+            <blockquote class="blockquote">
+              <p>nice book.
+                </p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Mr.Mekdim Wondu<cite title="Source Title">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </cite>
+            </figcaption>
+          </figure>
+          <figure class="mx-4 quotes">
+            <blockquote class="blockquote">
+              <p>I read this Amharic book when I was 13. But still i remember it.
+                </p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Mr.Faysel Endris<cite title="Source Title">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </cite>
+            </figcaption>
+          </figure>
+          <figure class="mx-4">
+            <blockquote class="blockquote">
+              <p> It is one of the best Amharic Fiction books I treasured in my heart.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Mr.Abel Darcha<cite title="Source Title">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </cite>
+            </figcaption>
+          </figure>
+          <figure  class="mx-4">
+            <blockquote class="blockquote">
+              <p>This is the best book that i ever read in my life.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Mr.kidus Girma<cite title="Source Title">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </cite>
+            </figcaption>
+          </figure>
+          <figure class="mx-4">
+            <blockquote class="blockquote">
+              <p>nice book i love it.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Ms.Elsa Nebiyo<cite title="Source Title">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </cite>
+            </figcaption>
+          </figure>
+          <figure class="mx-4">
+            <blockquote class="blockquote">
+              <p>I read four times this book but i have a plan to read again.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Ms.Tigest Meles<cite title="Source Title">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </cite>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <!-- contact form -->
+    <div class="container" id="contact-form">
+      <div class="text-center my-4">
+        <h5 class="contact-us display-6">Contact Us</h5>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <form>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-circle"></i></span>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group">
+              <span class="input-group-text"><i class="bi bi-pen"></i></span>
+              <textarea class="form-control" aria-label="With textarea" style="height:100px;" placeholder="Text here"></textarea>
+            </div>
+            <div class="text-center my-4">
+              <button type="submit" class="btn btn-outline-primary">Submit</button>
+            </div>  
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container-lg-8 mt-4 border" id="notify-me">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-9 mt-3">
+          <div>
+            <p>To get latest information submit your email here</p>
+          </div>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Notify Me
+          </button>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel mute">Enter email</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="input-group">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></i></span>
+                  <input type="text" class="form-control" placeholder="example@gmail.com" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="index.html" class="btn btn-primary">Submit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container bg-light" id="social-media-links">
+      <div class="row">
+        <div class="col mt-2">
+          <div class="justify-content-center text-center my-3">
+             <a href="" class="mx-3"><i class="bi bi-instagram"></i></a>
+             <a href="" class="mx-3"><i class="bi bi-facebook"></i></a>
+             <a href="" class="mx-3"><i class="bi bi-telegram"></i></a>
+             <a href="" class="mx-3"><i class="bi bi-whatsapp"></i></a>
+             <a href="" class="mx-3"><i class="bi bi-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mt-2">
+          <div class="justify-content-center text-center">
+              <a href="" class="mx-3"><i class="bi bi-github"></i></a>
+              <a href="" class="mx-3 "><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-3 mb-4">
+        <p>&copy; Haileyesus Chekol</p>
+      </div>
+    </div>
+
+ <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+ integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+ crossorigin="anonymous"></script>   
+</body>
+</html>

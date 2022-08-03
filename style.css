@@ -1,0 +1,23 @@
+
+.price-font{
+    font-family: 'Sacramento', cursive;
+    color: #003865;
+}
+.book-price{
+font-family: 'Sacramento', cursive;
+}
+.book-edition{
+    font-family: 'Oswald', sans-serif;
+}
+.about-book{
+    color: #003865;
+    font-family: 'Oswald', sans-serif;
+}
+.book-review{
+    font-family: 'Oswald', sans-serif;  
+    color: #003865; 
+}
+.contact-us{
+    font-family: 'Oswald', sans-serif;  
+    color: #003865; 
+}
